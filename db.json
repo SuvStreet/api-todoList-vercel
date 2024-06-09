@@ -1,40 +1,87 @@
 {
-  "todos": [
-    {
-      "title": "Сделать домашнюю работу",
-      "id": 5
-    },
-    {
-      "title": "Играаать!",
-      "id": 6
-    },
-    {
-      "title": "Убрать в комнате",
-      "id": 7
-    },
-    {
-      "title": "Посмотреть сериал",
-      "id": 8
-    },
-    {
-      "title": "Ялта",
-      "id": 10
-    },
-    {
-      "title": "Арбуз",
-      "id": 11
-    },
-    {
-      "title": "Удаление зависающего hover-эффекта недостаточно. Пользователи мобильных гаджетов нуждаются в визуальной обратной связи, потому что ошибочное нажатие кнопки - это очень распространенная проблема. Целевые размеры мобильных кнопок меньше десктопных версий, и их сложнее нажимать. От силы нажатия тоже многое зависит. Она должна быть установленной, т.к. иногда силы нажатия бывает недостаточно для активации действия, кнопка просто его не распознает.\r\n\r\nHover-эффект для мобильных кнопок - это волновой эффект (эффект ряби). Эффект ряби обеспечивает визуальную обратную связь, необходимую пользователям при нажатии кнопки. Пользователи видят на кнопке анимацию пульсации, которая гарантирует, что они точно нажимают кнопку. Если они не видят волнового эффекта, они сразу понимают, что ошиблись кнопкой или нажали/зажали ее с недостаточной силой. Волновая анимация интуитивно понятна, потому что она имитирует прикосновение воды. Когда вы бросаете камень в пруд, на поверхности появляется рябь, это означает, что камень коснулся воды. Эффект ряби обеспечивает понятный визуальный фидбек для пользователя.\r\n\r\nВажно преобразовать эффекты наведения в мобильные пульсации. Это придает пользователям уверенности в том, что они точно нажимают необходимую им кнопку. Это не совсем hover-эффект, но он обеспечивает ту же визуальную обратную связь, которая нужна пользователям при взаимодействии с кнопками.",
-      "id": 12
-    },
-    {
-      "title": "Игрушка",
-      "id": 13
-    },
-    {
-      "title": "игры",
-      "id": 14
-    }
-  ]
+	"developers": [
+		{
+			"id": "1",
+			"first_name": "Александр",
+			"last_name": "Булгаков",
+			"age": 30,
+			"about": "frontend-разработчик, тимлид",
+			"image_url": "https://fastly.picsum.photos/id/337/150/150.jpg?hmac=iv5Xj43KQpu4y6LEbWeQOxdD4oFCeVndzuVmm_MvVUw",
+			"techs": [
+				{ "label": "HTML", "level": 90 },
+				{ "label": "CSS", "level": 80 },
+				{ "label": "JavaScript", "level": 65 },
+				{ "label": "ReactJS", "level": 50 }
+			],
+			"badges": ["teamlead", "dev"],
+			"contacts": {
+				"phone": "+7 987 123 4567",
+				"email": "dev@ya.ru"
+			}
+		},
+		{
+			"id": "2",
+			"first_name": "Дмитрий",
+			"last_name": "Колотуша",
+			"age": 30,
+			"about": "frontend-разработчик",
+			"image_url": "https://fastly.picsum.photos/id/740/150/150.jpg?hmac=BiG8AZA2fAr6PmMVPTQWvkOQUiRSSjo2SUik43nJ7Us",
+			"techs": [
+				{ "label": "HTML", "level": 90 },
+				{ "label": "CSS", "level": 80 },
+				{ "label": "JavaScript", "level": 65 },
+				{ "label": "ReactJS", "level": 50 }
+			],
+			"badges": ["dev"],
+			"contacts": null
+		},
+		{
+			"id": "3",
+			"first_name": "Алексей",
+			"last_name": "Соколов",
+			"age": 37,
+			"about": "frontend-разработчик",
+			"image_url": "https://fastly.picsum.photos/id/981/150/150.jpg?hmac=BdaUDERcitfyXVohdj2-IsbKZimqshEON1UihYc5lKw",
+			"techs": [
+				{ "label": "HTML", "level": 90 },
+				{ "label": "CSS", "level": 80 },
+				{ "label": "JavaScript", "level": 65 },
+				{ "label": "ReactJS", "level": 50 }
+			],
+			"badges": ["dev"],
+			"contacts": null
+		},
+		{
+			"id": "4",
+			"first_name": "Владислав",
+			"last_name": "Тетенёв",
+			"age": 27,
+			"about": "frontend-разработчик",
+			"image_url": "https://fastly.picsum.photos/id/999/150/150.jpg?hmac=pztvMJgV08apuMia_aADgaSLBhyB-eJ2w6nwxZR4NRc",
+			"techs": [
+				{ "label": "HTML", "level": 90 },
+				{ "label": "CSS", "level": 80 },
+				{ "label": "JavaScript", "level": 65 },
+				{ "label": "ReactJS", "level": 50 }
+			],
+			"badges": ["dev"],
+			"contacts": null
+		},
+		{
+			"id": "5",
+			"first_name": "Константин",
+			"last_name": "Евлентьев",
+			"age": 27,
+			"about": "frontend-разработчик",
+			"image_url": "https://fastly.picsum.photos/id/586/150/150.jpg?hmac=Qy0on7NjDF8LIRY2zbW9e6w4zco_fLPizk4cTrSt15Q",
+			"techs": [
+				{ "label": "HTML", "level": 90 },
+				{ "label": "CSS", "level": 80 },
+				{ "label": "JavaScript", "level": 65 },
+				{ "label": "ReactJS", "level": 50 }
+			],
+			"badges": ["dev"],
+			"contacts": null
+		}
+	]
 }
